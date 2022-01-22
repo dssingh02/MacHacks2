@@ -13,4 +13,3 @@ for i = 1:length(fileList)
     imwrite(img, fullfile(exportFileDir, fName));
 end
 
-

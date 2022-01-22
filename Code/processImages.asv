@@ -1,0 +1,6 @@
+clear;
+
+% san fran
+traffic(:,:,1) = imread('E:\Google Drives\Personal Drive\MacHacks2\MacHacks2\Data\fused\sanfran_traffic.tif',1);
+g = imread('E:\Google Drives\Personal Drive\MacHacks2\MacHacks2\Data\fused\sanfran_traffic.tif',2);
+b = imread('E:\Google Drives\Personal Drive\MacHacks2\MacHacks2\Data\fused\sanfran_traffic.tif',3);
