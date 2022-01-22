@@ -1,8 +1,8 @@
 clear;
 load cropParams.mat;
 
-importFileDir = "E:\Google Drives\Personal Drive\MacHacks2\MacHacks2\Data\sanfran raw\";
-exportFileDir = "E:\Google Drives\Personal Drive\MacHacks2\MacHacks2\Data\sanfran crop\";
+importFileDir = "E:\Google Drives\Personal Drive\MacHacks2\MacHacks2\Data\sanfran sat raw\";
+exportFileDir = "E:\Google Drives\Personal Drive\MacHacks2\MacHacks2\Data\sanfran sat crop\";
 
 fileList = dir(sprintf('%s*.png', importFileDir));
 
