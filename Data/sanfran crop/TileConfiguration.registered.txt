@@ -1,0 +1,10 @@
+# Define the number of dimensions we are working on
+dim = 2
+
+# Define the image coordinates
+tile_01.png; ; (0.0, 0.0)
+tile_02.png; ; (1282.0, 0.0)
+tile_04.png; ; (1556.0, 734.0)
+tile_03.png; ; (3348.0, 650.0)
+tile_05.png; ; (1556.0, 1399.0)
+tile_06.png; ; (3347.0, 1315.0)

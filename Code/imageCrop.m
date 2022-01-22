@@ -9,7 +9,8 @@ fileList = dir(sprintf('%s*.png', importFileDir));
 for i = 1:length(fileList)
     img = imread(fullfile(fileList(i).folder, fileList(i).name));
     img = imcrop(img, cropParams);
-    imwrite(img, fullfile(exportFileDir, fileList(i).name));
+    fName = sprintf('tile_%02i.png',i);
+    imwrite(img, fullfile(exportFileDir, fName));
 end
 
 
